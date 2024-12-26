@@ -119,7 +119,7 @@ Followed doc: https://trino.io/docs/current/security/oauth2.html#security-oauth2
 ```yaml
   workerExtraConfig: |
     # Shared Secret
-    internal-communication.shared-secret=meZ7KoBrCAJsJLoZHMES94l9nt71UDxN8I6SFiGKXhGV/kUWa60Ngj7sarps/Fvxd1olBMGJGiimAVY5yFbdDKa1+xFD9nRfb9XVDbL4uPv9AOOnET+o+RnT2VWfQSuuxjQhJZ8fnxErD0wxcftf5x0so5+JEhl8p7xPk33UuBQdbZRuvv+ORmDZDcvplvVmJaerDPztRenFVnO7ohxegRAQjh71LUbjhAXmTtoyGrAO7jyp7o/24BOB/HY4pgpDaiPG+zS+TYPY+nKU2Wta8bdIBWGlOrtf/xYS55/NAPcExWyrnBcGYm7jE1tDbalmebyKhzbemOlOdrUng3qCC36XxNl1PXHSOR8ua50j7y9GwlNKKgc1WcrLRkr7VL5Zk8clZH85EGj8rfpeWqtqAtDPWCOWoa35sf46zfB7omtchOshtTlol4FYBorIXftYSf4G6rvZ7e6S9+ixp4FX1wmMW/yajOesYpCeuCkD56ERxOXvlqKldTwi8mvcYKRZo68WTrErqp6oZR5MGSAwoQCH69bNoCijE8Qmhe60A2eKaVr0IGqq+luqdHs5UFwyTdHU7qaNnPeOFokpDQCBG1YTdvLY9RrZqzI8FhQivw65Jkwwly+BZ0C3WV20862LRmV7GPlSqhgtqD4KVSwM7Ph5ba3eYSY6nbi+qa8a5wo=
+    internal-communication.shared-secret=meZ7KoBrCA************************
 
   coordinatorExtraConfig: |
     http-server.https.enabled=true
@@ -128,13 +128,13 @@ Followed doc: https://trino.io/docs/current/security/oauth2.html#security-oauth2
     http-server.authentication.allow-insecure-over-http=true
 
     # Shared Secret
-    internal-communication.shared-secret=meZ7KoBrCAJsJLoZHMES94l9nt71UDxN8I6SFiGKXhGV/kUWa60Ngj7sarps/Fvxd1olBMGJGiimAVY5yFbdDKa1+xFD9nRfb9XVDbL4uPv9AOOnET+o+RnT2VWfQSuuxjQhJZ8fnxErD0wxcftf5x0so5+JEhl8p7xPk33UuBQdbZRuvv+ORmDZDcvplvVmJaerDPztRenFVnO7ohxegRAQjh71LUbjhAXmTtoyGrAO7jyp7o/24BOB/HY4pgpDaiPG+zS+TYPY+nKU2Wta8bdIBWGlOrtf/xYS55/NAPcExWyrnBcGYm7jE1tDbalmebyKhzbemOlOdrUng3qCC36XxNl1PXHSOR8ua50j7y9GwlNKKgc1WcrLRkr7VL5Zk8clZH85EGj8rfpeWqtqAtDPWCOWoa35sf46zfB7omtchOshtTlol4FYBorIXftYSf4G6rvZ7e6S9+ixp4FX1wmMW/yajOesYpCeuCkD56ERxOXvlqKldTwi8mvcYKRZo68WTrErqp6oZR5MGSAwoQCH69bNoCijE8Qmhe60A2eKaVr0IGqq+luqdHs5UFwyTdHU7qaNnPeOFokpDQCBG1YTdvLY9RrZqzI8FhQivw65Jkwwly+BZ0C3WV20862LRmV7GPlSqhgtqD4KVSwM7Ph5ba3eYSY6nbi+qa8a5wo=
+    internal-communication.shared-secret=meZ7KoBrCA************************
     
     # OIDC Config
     http-server.authentication.type=oauth2
     http-server.authentication.oauth2.issuer=https://login.microsoftonline.com/d1327173-77da-4002-9636-b1aac62ef787/v2.0
-    http-server.authentication.oauth2.client-id=78d9369e-xxxxxxxxxxxxxxxxxx
-    http-server.authentication.oauth2.client-secret=GlO8Qxxxxxxxxxxxxxxxxxxxxx
+    http-server.authentication.oauth2.client-id=78d9***********************
+    http-server.authentication.oauth2.client-secret=GlO8Q***********************
     web-ui.authentication.type=oauth2
 ```
 
